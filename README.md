@@ -2,7 +2,9 @@
 # ONGOING Project/ WORK IN PROGRESS
 Vibescape is an **image discovery platform** that curates **high-quality, aesthetic visuals** from Unsplash. Whether you're looking for inspiration or just want to explore beautiful imagery, Vibescape makes it effortless.  
 
-![sample view](frontend/sample/dashboardsample.png)
+![sample view of dashboard](frontend/sample/dashboardsample.png)
+![sample view of image_details](frontend/sample/imagedetails.png)
+
 
 
 ## ✨ Features  
