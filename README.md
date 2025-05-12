@@ -4,6 +4,9 @@ Vibescape is an **image discovery platform** that curates **high-quality, aesthe
 
 ## 👉 [Visit Vibescape](https://vibescape.netlify.app/dashboard)
 
+
+<hr>
+
 ![sample view of dashboard](frontend/sample/dashboardsample.png)
 ![sample view of image_details](frontend/sample/imagedetails.png)
 
