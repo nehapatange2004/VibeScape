@@ -1,4 +1,6 @@
 import { createContext, useContext, useState, useEffect } from "react";
+
+
 import axios from "axios";
 
 interface ImageType {
@@ -16,11 +18,12 @@ const ImgProvider = ({ children }: React.PropsWithChildren<{}>) => {
   const [queried, setQuery] = useState("aesthetic");
   const [images, setImages] = useState<any[]>([]);
   const [imgIndex, setImgIndex] = useState(0);
-
+  const BACKEND_API = import.meta.env.VITE_RENDER_BACKEND;
   useEffect(() => {
     const fetchImages = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/dashboard", {
+        
+        const res = await axios.get(`${BACKEND_API}/dashboard`, {
           params: { query: queried },
         });
         const data = await res.data;

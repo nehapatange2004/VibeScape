@@ -14,8 +14,9 @@ export default function ImagesLayout() {
   const { images, setImgIndex } = imageContext();
   const [imageLoading, setImageLoading] = useState(true);
   console.log("images in imglayout: ", images);
+  try{
 
-  if (images.length === 0) {
+    if (images.length === 0) {
     return null;
   }
   return (
@@ -101,4 +102,9 @@ export default function ImagesLayout() {
       ))}
     </div>
   );
+  } catch(err) {
+    console.log("Error in the imageslayout while getting images: ", err);
+  }
+
+  
 }
