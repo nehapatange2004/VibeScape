@@ -1,15 +1,13 @@
-import React from "react";
-import { useState, useEffect } from "react";
-import Search from "./Search";
+// import React from "react";
+import { useState } from "react";
+// import Search from "./Search";
 import "../App.css";
 import { img as imageContext } from "../wrapper/imageContext";
 import { Link } from "react-router-dom";
 import { Blurhash } from "react-blurhash";
 import DownloadImage from "./downloadImage";
 
-interface ImgQuery {
-  query: string;
-}
+
 
 
 export default function ImagesLayout() {

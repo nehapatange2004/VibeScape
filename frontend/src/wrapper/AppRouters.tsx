@@ -1,7 +1,7 @@
-import { Dashboard } from "@mui/icons-material";
-import React from "react";
+// import { Dashboard } from "@mui/icons-material";
+// import React from "react";
 import { Routes, Route } from "react-router-dom";
-import DashBoard from "../components/dashboard";
+// import DashBoard from "../components/dashboard";
 import NavBar from "../components/navbar.tsx";
 import Gallery from "../components/gallery.tsx";
 import Register from "../components/register.tsx";

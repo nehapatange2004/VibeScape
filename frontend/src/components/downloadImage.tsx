@@ -1,9 +1,7 @@
 import { Button } from '@mui/material';
-import React from 'react'
+// import React from 'react'
 import {img as imgContext} from "../wrapper/imageContext.tsx";
-interface downloadImageProp{
-    imgIndex: number
-}
+
 const downloadImage = () => {
     const {images, imgIndex, API_KEY} = imgContext();
   return (

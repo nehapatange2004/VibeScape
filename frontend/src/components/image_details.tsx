@@ -1,10 +1,10 @@
-import { Box, Button, Card, Typography } from "@mui/material";
-import React, { useEffect } from "react";
+import { Box, Button, Typography } from "@mui/material";
+// import React, { useEffect } from "react";
 import { useState } from "react";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIosRoundedIcon from "@mui/icons-material/ArrowForwardIosRounded";
 import { img as imagesContext } from "../wrapper/imageContext";
-import { createElement } from "@emotion/react";
+// import { createElement } from "@emotion/react";
 import {capitalizeFirstLetterOfWord} from "../utilityFunctions/stringmanuplation.tsx";
 import DownloadImage from "./downloadImage";
 

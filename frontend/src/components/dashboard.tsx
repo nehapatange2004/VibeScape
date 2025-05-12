@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import ImagesLayout from './imageslayout';
 
 export const dashboard = () => {

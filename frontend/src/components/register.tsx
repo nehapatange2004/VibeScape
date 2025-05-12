@@ -6,7 +6,7 @@ import {
   Typography,
   InputAdornment,
 } from "@mui/material";
-import { Email, Visibility, VisibilityOff } from "@mui/icons-material";
+import {  Visibility, VisibilityOff } from "@mui/icons-material";
 import IconButton from "@mui/material/IconButton";
 import { useState } from "react";
 import { auth } from "../wrapper/authWrapper";

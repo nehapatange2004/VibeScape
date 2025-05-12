@@ -1,5 +1,5 @@
 import * as React from "react";
-import AppBar from "@mui/material/AppBar";
+// import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
@@ -8,18 +8,17 @@ import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Avatar from "@mui/material/Avatar";
-import Button from "@mui/material/Button";
+// import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
+// import AdbIcon from "@mui/icons-material/Adb";
 import { auth } from "../wrapper/authWrapper";
 import { NavLink } from "react-router-dom";
-import {
-  Padding,
-  PaddingOutlined,
-  PaddingRounded,
-  Scale,
-} from "@mui/icons-material";
+// import {
+//   PaddingOutlined,
+//   PaddingRounded,
+
+// } from "@mui/icons-material";
 
 // const {isUserLoggedIn, setIsUserLoggedIn} = auth();
 function ResponsiveAppBar() {

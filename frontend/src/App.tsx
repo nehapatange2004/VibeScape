@@ -1,11 +1,11 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+// import { useState } from "react";
+// import reactLogo from "./assets/react.svg";
+// import viteLogo from "/vite.svg";
 import "./App.css";
 import axios from "axios"
-import ImagesLayout from "./components/imageslayout";
-import Search from "./components/Search";
-import NavBar from "./components/navbar";
+// import ImagesLayout from "./components/imageslayout";
+// import Search from "./components/Search";
+// import NavBar from "./components/navbar";
 import { useEffect } from "react";
 
 function App() {

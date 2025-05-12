@@ -1,6 +1,6 @@
-import React from "react";
+// import React from "react";
 
-import { useState, useEffect } from "react";
+import {useEffect } from "react";
 import Search from "./Search";
 import ImagesLayout from "./imageslayout";
 import { img as imageContext} from "../wrapper/imageContext.tsx";
