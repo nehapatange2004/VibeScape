@@ -43,11 +43,7 @@ function ResponsiveAppBar() {
       label: "Dashboard",
       link: "/dashboard",
     },
-    {
-      label: "Register",
-      link: "/register",
-    },
-
+    
     ...(!isUserLoggedIn
       ? [
           {
@@ -58,7 +54,7 @@ function ResponsiveAppBar() {
       : [
           {
             label: "My Board",
-            link: "register",
+            link: "myboard",
           },
         ]),
   ];
@@ -243,7 +239,9 @@ function ResponsiveAppBar() {
                           textDecorationColor: "black",
                           textUnderlinePosition: "under",
                         }
-                      : undefined
+                      : {
+                        textDecoration: "none",
+                      }
                   }
                   onClick={handleCloseNavMenu}
                 >
@@ -252,6 +250,7 @@ function ResponsiveAppBar() {
                       color: "rgb(102, 32, 4)",
                       // fontWeight:"bold",
                       fontFamily: `'Sour Gummy', sans-serif`,
+                      textDecoration: "none",
                       fontSize: 17,
                       ":hover": {
                         transition: "all 0.2s ease-in-out",
