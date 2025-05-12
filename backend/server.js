@@ -10,7 +10,7 @@ const corsOption = {
   origin: ["http://localhost:5173", "https://vibescape.netlify.app"],
   Credential: true
 }
-app.use(cors());
+app.use(cors(corsOption));
 console.log("server started!");
 app.listen(5000, () => {
   console.log("The server is running in the port 5000");
