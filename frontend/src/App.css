@@ -75,11 +75,11 @@ header .tag-line{
   background-color: transparent;
 }
 
-.search-gallery {
+/* .search-gallery { */
   /* border: 2px solid green; */
   
   
-}
+/* } */
 #search:focus {
   
   outline: none;
